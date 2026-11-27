@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ひだまり家計帳 — 家計簿サイト（サンプル家計）</title>
+<meta name="description" content="予算と実績、支出の記録、貯蓄目標、年間ビューをひとつにまとめた家計簿サイト。ブラウザだけで動き、データは端末内に保存されます。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%23b9741a%27/%3E%3Ctext x=%2716%27 y=%2724%27 font-size=%2722%27 text-anchor=%27middle%27 fill=%27%23fff%27%3E帳%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">帳</span><span>ひだまり家計帳<small>モデル家計のサンプル</small></span></a>
+    <nav class="nav" id="nav" aria-label="メインメニュー"></nav>
+    <div class="months" id="months" role="group" aria-label="表示する月"></div>
+  </div>
+</header>
+<main id="app" tabindex="-1"><p class="loading">読み込み中…</p></main>
+<footer class="foot">
+  <p>ひだまり家計帳 ／ <span>モデル家計：夫婦＋子1人の3人世帯のサンプル</span>。数値はすべてサンプル計画から計算した例で、実在の統計ではありません。</p>
+  <p>ネット接続なしで動作し、入力した支出はこの端末のブラウザ内だけに保存されます。 <button type="button" class="linkbtn" id="reset">サンプルの状態に戻す</button></p>
+</footer>
+</body>
+</html>
